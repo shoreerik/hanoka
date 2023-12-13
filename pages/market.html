@@ -11,29 +11,39 @@
     <div class="mainContainer">
 
         <div class="navBar">
-
-            <button id="home">home</button>
             <button id="logout">logout</button>
-
-
+            <button id="home">home</button>
         </div>
 
         <div class="container">
 
-<div class="headerContainer">
-
-        <h1 id="header"></h1>
-</div>
+            <div class="headerContainer">
+                <h1 id="header"></h1>
+            </div>
 
             <div class="innerContainer">
-                <select name="" id="">
-                    <option value="">jam</option>
-                    <option value="">vanile</option>
-                    <option value="">chocolate</option>
-                    <option value="">dulce de leche</option>
-                
-                </select>
+                <div class="selector">
+                    <select name="" id="countrySelect">
+                        <option value="country">Country</option>
+                        <option value="north">North</option>
+                        <option value="center">Center</option>
+                        <option value="south">South</option>
+                    </select>
+                </div>
 
+                <div class="selector">
+                    <select name="" id="tasteSelect">
+                        <option value="taste">taste</option>
+                        <option value="jam">jam</option>
+                        <option value="vanile">vanile</option>
+                        <option value="chocolate">chocolate</option>
+                        <option value="dulce de leche">dulce de leche</option>
+                    </select>
+                </div>
+
+                <div id="marketContainer">
+
+                </div>
             </div>
 
         </div>
@@ -42,5 +52,6 @@
     </div>
 
 </body>
-<script src="../"></script>
+<script src="../script/market.js"></script>
+
 </html>
