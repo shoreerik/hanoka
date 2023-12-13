@@ -1,0 +1,33 @@
+{
+    "users": [
+    {
+        "id": 1,
+        "fname": "Galit",
+        "lname":"Menachem",
+        "email":"galitm@google.com",
+        "password":"240479"
+    },
+    {
+        "id": 2,
+        "fname":"Shay Menachem",
+        "lname":"Menachem",
+        "email": "shaym@google.com",
+        "password":"040375"
+    },
+    {
+        "id": 3,
+        "fname": "Morya Menachem",
+        "lname":"Menachem",      
+        "email": "moryam@google.com",
+        "password":"17012003"
+    },
+    {
+        "id": 4,
+        "fname": "Dvir",
+        "lname":"Menachem",       
+        "email": "dvirm@google.com",
+        "password":"04032006"
+    }
+
+]
+}

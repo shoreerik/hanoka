@@ -1,0 +1,40 @@
+{
+    "donuts": [
+      {
+        "id": 1,
+        "name": "Chocolate Donut",
+        "description": "A delicious chocolate-flavored donut.",
+        "allergyId": 4,  
+        "safeForAllergies": true
+      },
+      {
+        "id": 2,
+        "name": "Vanilla Donut",
+        "description": "A classic vanilla-flavored donut.",
+        "allergyId": 5,  
+        "safeForAllergies": true
+      },
+      {
+        "id": 3,
+        "name": "Strawberry Donut",
+        "description": "A sweet and fruity strawberry-flavored donut.",
+        "allergyId": 1,  
+        "safeForAllergies": true
+      },
+      {
+        "id": 4,
+        "name": "Nutty Caramel Donut",
+        "description": "A caramel-covered donut with nuts.",
+        "allergyId": 4,  
+        "safeForAllergies": false
+      },
+      {
+        "id": 5,
+        "name": "Gluten-Free Lemon Donut",
+        "description": "A gluten-free lemon-flavored donut.",
+        "allergyId": 2,  
+        "safeForAllergies": true
+      }
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+ {
+    "allergyTypes": [
+      {
+        "id": 1,
+        "name": "Dairy",
+        "description": "Allergic to milk and dairy products."
+      },
+      {
+        "id": 2,
+        "name": "Gluten",
+        "description": "Allergic to gluten-containing grains like wheat, barley, and rye."
+      },
+      {
+        "id": 3,
+        "name": "Nuts",
+        "description": "Allergic to tree nuts or peanuts."
+      },
+      {
+        "id": 4,
+        "name": "Eggs",
+        "description": "Allergic to eggs and egg-containing products."
+      },
+      {
+        "id": 5,
+        "name": "Sesame",
+        "description": "Allergic to sesame seeds and sesame-based products."
+      }
+      
+    ]
+  }
