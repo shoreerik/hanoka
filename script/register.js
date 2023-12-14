@@ -21,11 +21,17 @@ function register() {
     if (firstName.value == "" || lastName.value == "" || email.value == "" || password.value == "") {
         wrongData.innerText = "Missing Data";
     } else{
-        let userArr = localStorage.getItem("userData");
-        console.log(userArr);
+        let userArr = JSON.parse(localStorage.getItem("userData"));
         for (let x in userArr){
-            if(email.value == userArr.email){
-                alert("email vklbvvgb")
+            if(email.value == userArr[x].email){
+                wrongData.innerText = "The email is already used";
+                break;
+            }else{
+                let user = new Users(userArr.length + 1, firstName.value, lastName.value, email.value, password.value);
+                userArr.push(user);
+                localStorage.setItem("userData", JSON.stringify(userArr));
+                console.log(userArr);
+                break;
             }
         }
     }
