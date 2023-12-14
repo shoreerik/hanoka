@@ -7,19 +7,6 @@ let email = document.getElementById("email");
 let password = document.getElementById("password");
 let wrongData = document.getElementById("wrongData");
 
-let xhr = new XMLHttpRequest();
-
-        xhr.open(`GET`, '../data/users.json', true);
-
-        xhr.onload = function () {
-            let response = JSON.parse(this.responseText);
-            if(!localStorage.getItem("userData")){
-                localStorage.setItem("userData", JSON.stringify(response.users));
-            }
-        }
-        xhr.send();
-
-
 class Users {
     constructor(id, firstName, lastName, email, password) {
         this.id = id;
@@ -33,7 +20,15 @@ class Users {
 function register() {
     if (firstName.value == "" || lastName.value == "" || email.value == "" || password.value == "") {
         wrongData.innerText = "Missing Data";
-    } 
+    } else{
+        let userArr = localStorage.getItem("userData");
+        console.log(userArr);
+        for (let x in userArr){
+            if(email.value == userArr.email){
+                alert("email vklbvvgb")
+            }
+        }
+    }
     }
 
 
