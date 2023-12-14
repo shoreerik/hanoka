@@ -31,7 +31,9 @@ function register() {
                 userArr.push(user);
                 localStorage.setItem("userData", JSON.stringify(userArr));
                 console.log(userArr);
+                window.location.href = "../pages/market.html";
                 break;
+                
             }
         }
     }
