@@ -58,7 +58,7 @@ input{
 }
 
 #button:hover{
-    background-color: rgb(0, 174, 209);
+    background-color: #fdad7e;
     cursor: pointer;
     transform: scale(1.1,1.1);
     transition: 0.5s;
@@ -81,7 +81,6 @@ input{
     border: none;
     background-color: #ffd1b7;
     outline: none;
-    transition: 0.5s;
 }
 
 #login:hover{
